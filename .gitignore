@@ -132,4 +132,12 @@ dmypy.json
 .idea/
 **/.DS_Store 
 **/.ipynb_checkpoints/ 
-data/* 
+
+# ignore everything in the following folders
+data/**
+
+# except their sub-folders
+!data/**/
+
+# keep all .gitkeep files
+!.gitkeep

@@ -9,7 +9,7 @@ git clone https://github.com/nikhil-bhargava/ids-705-final-project.git
 
 **Step 2: Navigate your way into the repo.**
 ```
-cd ids-706-fp
+cd ids-705-final-project
 ```
 
 **Step 3: Create virtual environment for project (pip or conda).**

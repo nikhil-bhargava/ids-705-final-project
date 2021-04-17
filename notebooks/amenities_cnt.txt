@@ -1,0 +1,128 @@
+smooth pathway to front door,397,0.01
+24-hour check-in,19015,0.26
+Accessible-height bed,349,0.0
+Accessible-height toilet,261,0.0
+Air conditioning,55210,0.74
+Air purifier,14,0.0
+BBQ grill,633,0.01
+Baby bath,305,0.0
+Baby monitor,133,0.0
+Babysitter recommendations,677,0.01
+Bath towel,1,0.0
+Bathtub,3761,0.05
+Bathtub with shower chair,34,0.0
+Beach essentials,102,0.0
+Beachfront,33,0.0
+Bed linens,4178,0.06
+Body soap,1,0.0
+Breakfast,8306,0.11
+Buzzer/wireless intercom,17033,0.23
+Cable TV,24253,0.33
+Carbon monoxide detector,47190,0.64
+Cat(s),3593,0.05
+Changing table,225,0.0
+Children’s books and toys,1126,0.02
+Children’s dinnerware,635,0.01
+Cleaning before checkout,271,0.0
+Coffee maker,3555,0.05
+Cooking basics,3958,0.05
+Crib,442,0.01
+Disabled parking spot,34,0.0
+Dishes and silverware,4255,0.06
+Dishwasher,2312,0.03
+Dog(s),5255,0.07
+Doorman,4780,0.06
+Doorman Entry,453,0.01
+Dryer,42711,0.58
+EV charger,49,0.0
+Elevator,10820,0.15
+Elevator in building,6417,0.09
+Essentials,64005,0.86
+Ethernet connection,693,0.01
+Extra pillows and blankets,3026,0.04
+Family/kid friendly,37026,0.5
+Fire extinguisher,30724,0.41
+Fireplace guards,219,0.0
+Firm matress,15,0.0
+Firm mattress,115,0.0
+First aid kit,27532,0.37
+Fixed grab bars for shower & toilet,68,0.0
+Flat,397,0.01
+Flat smooth pathway to front door,11,0.0
+Free parking on premises,23639,0.32
+Free parking on street,77,0.0
+Game console,479,0.01
+Garden or backyard,1129,0.02
+Grab-rails for shower and toilet,2,0.0
+Ground floor access,25,0.0
+Gym,7491,0.1
+Hair dryer,43330,0.58
+Hand or paper towel,1,0.0
+Hand soap,1,0.0
+Handheld shower head,136,0.0
+Hangers,49173,0.66
+Heating,67073,0.91
+High chair,635,0.01
+Host greets you,1196,0.02
+Hot tub,6330,0.09
+Hot water,4267,0.06
+Hot water kettle,173,0.0
+Indoor fireplace,9300,0.13
+Internet,44648,0.6
+Iron,41687,0.56
+Keypad,2995,0.04
+Kitchen,67526,0.91
+Lake access,18,0.0
+Laptop friendly workspace,43703,0.59
+Lock on bedroom door,17983,0.24
+Lockbox,5738,0.08
+Long term stays allowed,1671,0.02
+Luggage dropoff allowed,1640,0.02
+Microwave,3912,0.05
+Other,218,0.0
+Other pet(s),378,0.01
+Outlet covers,446,0.01
+Oven,3944,0.05
+Pack ’n Play/travel crib,1124,0.02
+Paid parking off premises,7,0.0
+Path to entrance lit at night,27,0.0
+Patio or balcony,1220,0.02
+Pets allowed,10197,0.14
+Pets live on this property,9730,0.13
+Pocket wifi,217,0.0
+Pool,6283,0.08
+Private bathroom,74,0.0
+Private entrance,7270,0.1
+Private living room,2524,0.03
+Refrigerator,4650,0.06
+Roll-in shower with chair,3,0.0
+Room-darkening shades,1496,0.02
+Safety card,11513,0.16
+Self Check-In,11041,0.15
+Shampoo,49465,0.67
+Single level home,519,0.01
+Ski in/Ski out,13,0.0
+Smart lock,657,0.01
+Smartlock,787,0.01
+Smoke detector,61727,0.83
+Smoking allowed,3673,0.05
+Stair gates,299,0.0
+Step-free access,2060,0.03
+Stove,4083,0.06
+Suitable for events,4268,0.06
+TV,52458,0.71
+Table corner guards,88,0.0
+Toilet paper,1,0.0
+Washer,43169,0.58
+Washer / Dryer,31,0.0
+Waterfront,115,0.0
+Well-lit path to entrance,770,0.01
+Wheelchair accessible,4848,0.07
+Wide clearance to bed,406,0.01
+Wide clearance to shower & toilet,123,0.0
+Wide clearance to shower and toilet,1,0.0
+Wide doorway,1062,0.01
+Wide entryway,302,0.0
+Wide hallway clearance,475,0.01
+Window guards,615,0.01
+Wireless Internet,71265,0.96

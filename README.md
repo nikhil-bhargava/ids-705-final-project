@@ -12,24 +12,16 @@ This model could be helpful to home and apartment owners trying to determine a g
 We see the benefits of this project reaching beyond just Airbnb, the same principles used in this project can be applied to a wide variety of real estate tech companies. Our model will likely be fairly easy to translate to companies like Zillow, traditional real estate agencies, and the countless real estate tech companies popping up working to improve the refinance of the mortgage industry. In a more general sense building an effective revenue boosting Machine Learning algorithm is applicable to virtually every company in the world. This will be a good way to integrate the machine learning topics from class to a real dataset.
 
 
-## Data Sources
-The final dataset was created by merging four different datasets - US Airbnb data (Washington, Chicago, LA, San Fransisco, New York), population by each city, geographical data to calculate the distance from city center to each Airbnb, and European data (Madrid, London, Paris).  
-
-1. US Airbnb Data: http://insideairbnb.com/get-the-data.html
-
-2. Population Data
-
-3. Geographical Data
-
-4. European Airbnb Data for test set
+## I. Data Sources
+The final dataset was created by merging four different datasets - US Airbnb data (Washington, Chicago, LA, San Fransisco, New York), population by each city, geographical data to calculate the distance from city center to each Airbnb, and European data (Madrid, London, Paris). The data can be found here: http://insideairbnb.com/get-the-data.html
 
 
-## Experimental Design 
+## II. Experimental Design 
 ![work-flow](https://user-images.githubusercontent.com/71023894/115909272-50c34e00-a439-11eb-9fff-f5253bcf4435.png)
 
 
 
-## Final Model
+## III. Final Model
 After testing out five different models (Lasso, Random Forest, XGboost, Neural Net and KNN), we concluded that the best model is Random Forest based on R-squared and Absolute Median Error. 
 
 ![result](https://user-images.githubusercontent.com/71023894/115910152-7d2b9a00-a43a-11eb-990e-0504fd89dd65.png)
@@ -37,7 +29,7 @@ After testing out five different models (Lasso, Random Forest, XGboost, Neural N
 
 
 
-## Getting Started
+## IV. Getting Started
 
 **Step 1: Clone the repo:**
 ```

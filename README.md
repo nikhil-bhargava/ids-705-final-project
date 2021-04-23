@@ -1,4 +1,4 @@
-# Machine Learning Final Project : Predicting Airbnb Rental Prices
+# Machine Learning Project : Predicting Airbnb Rental Prices
 Our team aimed to predict major US and European cities' rental price based on US Airbnb rental price data using supervised learning methods. The main questions of interest are:
 
   1. Will the model trained on US data generalize to European cities? 

@@ -7,6 +7,8 @@ Our team aimed to predict major US and European cities' rental price based on US
   1. Will the model trained on US data generalize to European cities? 
   2. What are the important features in predicting Airbnb prices? 
 
+This model could be helpful to home and apartment owners trying to determine a good price for their listing, by offering an estimate of what similar units in the area are priced at, it helps to establish a baseline. On the renters end, having a price prediction can help them determine whether or not the apartment they are considering is a good deal or not. 
+
 We see the benefits of this project reaching beyond just Airbnb, the same principles used in this project can be applied to a wide variety of real estate tech companies. Our model will likely be fairly easy to translate to companies like Zillow, traditional real estate agencies, and the countless real estate tech companies popping up working to improve the refinance of the mortgage industry. In a more general sense building an effective revenue boosting Machine Learning algorithm is applicable to virtually every company in the world. This will be a good way to integrate the machine learning topics from class to a real dataset.
 
 

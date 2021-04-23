@@ -17,7 +17,7 @@ The final dataset was created by merging four different datasets - US Airbnb dat
 
 
 ## II. Experimental Design 
-![work-flow](https://user-images.githubusercontent.com/71023894/115909272-50c34e00-a439-11eb-9fff-f5253bcf4435.png)
+![work-flow](https://user-images.githubusercontent.com/71023894/115911394-07c0c900-a43c-11eb-9fe3-1995c22ba37d.png)
 
 
 

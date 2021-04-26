@@ -3,7 +3,7 @@
 
 # Machine Learning Project: Predicting Airbnb Rental Prices
 Our team aimed to predict major US and European cities' rental price based on US Airbnb rental price data using supervised learning methods. The main questions of interest are:
-
+  1. How well can our model predict American Airbnb prices? 
   1. Will the model trained on US data generalize to European cities? 
   2. What are the important features in predicting Airbnb prices? 
 
@@ -13,12 +13,30 @@ We see the benefits of this project reaching beyond just Airbnb, the same princi
 
 
 ## I. Data Sources
-The final dataset was created by merging four different datasets - US Airbnb data (Washington, Chicago, LA, San Fransisco, New York), population by each city, geographical data to calculate the distance from city center to each Airbnb, and European data (Madrid, London, Paris). The data can be found here: http://insideairbnb.com/get-the-data.html
+For this study, four datasets were acquired, cleaned, and merged together to create comprehensive train and test datasets. 
 
+Kaggle: Airbnb Data in Major US Cities
+This dataset contained the price and characteristics of various Airbnb listings in six major US cities -- Boston, Chicago, Los Angeles, New York, San Francisco, and Washington D.C. The initial dataset contained information on over 74,000 distinct Airbnb properties and 28 features. It was ultimately split into training, validation, and test sets.
+
+This dataset can be downloaded here: https://www.kaggle.com/rudymizrahi/airbnb-listings-in-major-us-cities-deloitte-ml
+
+Inside Airbnb: Airbnb Data in Global Cities
+Inside Airbnb contained the price of Airbnbs and over seventy characteristics of listings in major cities worldwide. To test for model generalizability abroad, we selected three prominent cities in Western Europe -- Madrid, London, and Paris.
+
+This dataset can be downloaded here: https://www.kaggle.com/rudymizrahi/airbnb-listings-in-major-us-cities-deloitte-ml
+
+Simple Maps: City Data
+The simple maps data was merged onto the Airbnb data on city to obtain population and the longitude and latitude of the city center of a city. This was crucial to several of the features we engineered to improve model predictivity.
+
+This dataset can be downloaded here: https://simplemaps.com/resources/free-country-cities
+
+World Data: Cost of Living Index
+As mentioned previously, housing data often requires normalization when being compared across markets. One of the ways we improved our model was by adjusting each of our international predictions based on the Cost of Living Index (CLI) associated with the relevant country. The CLI is a metric used to adjust the cost of goods and services with respect to the US.
+
+This dataset can be downloaded here: https://www.worlddata.info/cost-of-living.php
 
 ## II. Experimental Design 
 ![work-flow](https://user-images.githubusercontent.com/71023894/115911394-07c0c900-a43c-11eb-9fe3-1995c22ba37d.png)
-
 
 
 ## III. Final Model
@@ -33,7 +51,6 @@ This study developed a modeling and feature engineering approach that not only p
 The results from the Random Forest Regressor, showed that the model was able to outperform other techniques such as Lasso Regression, KNNs, XGboost, and MLP Regressors based on key metrics such as R2 and RMSE. The median prediction of this model was within about $24 of the actual Airbnb price in the US compared to $28 internationally. Considering the nightly cost of anywhere from a couple bucks to thousands of dollars, this range is acceptable.
 
 One limitation our study did not account for is the impact Covid may have had on rental prices internationally. Since most of the training data is from 2018, while much of the international test data was acquired in 2021, there may be a difference in rental prices during those time periods. According to Forbes, 29% of American hosts listed their properties at reduced prices, especially for those considered essential workers, at the beginning of the pandemic.
-
 
 
 ## V. Getting Started
@@ -57,4 +74,10 @@ Remember to install packages and add them to requirements.txt as you go along wi
 ```
 pip install -r requirements.txt
 ```
+
+**Step 4: Download datasets from links above in data section. Store the data in the `/data/raw` folder.**
+
+**Step 5: Create pre-processed train and test datasets by running the following notebooks: `notebooks/00-us-preprocessing` and `notebooks/00-international-preprocessing` folders. The datasets are not included as they're larger than the github data storage limits.**
+
+**Step 6: Run any model notebook, example for the Random Forests model run the corresponding notebook: `notebooks/01-random-forest-modeling`. This will also output the model in the `models/` folder. The models are not included as they're larger than the github data storage limits.**
 

@@ -27,9 +27,16 @@ After testing out five different models (Lasso, Random Forest, XGboost, Neural N
 ![result](https://user-images.githubusercontent.com/71023894/115910152-7d2b9a00-a43a-11eb-990e-0504fd89dd65.png)
 
 
+## IV. Conclusion
+This study developed a modeling and feature engineering approach that not only performs well at predicting Airbnb rental prices within the United States, but also abroad. Based on property characteristics and geographic features, we were able to train multiple models that generalized beyond just the city or geographic location it was trained upon. Based on predictive power, we concluded that property type, the number of bathrooms, and the distance an Airbnb is to the city center is critical in predicting the price of a listing.
+
+The results from the Random Forest Regressor, showed that the model was able to outperform other techniques such as Lasso Regression, KNNs, XGboost, and MLP Regressors based on key metrics such as R2 and RMSE. The median prediction of this model was within about $24 of the actual Airbnb price in the US compared to $28 internationally. Considering the nightly cost of anywhere from a couple bucks to thousands of dollars, this range is acceptable.
+
+One limitation our study did not account for is the impact Covid may have had on rental prices internationally. Since most of the training data is from 2018, while much of the international test data was acquired in 2021, there may be a difference in rental prices during those time periods. According to Forbes, 29% of American hosts listed their properties at reduced prices, especially for those considered essential workers, at the beginning of the pandemic.
 
 
-## IV. Getting Started
+
+## V. Getting Started
 
 **Step 1: Clone the repo:**
 ```

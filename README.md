@@ -75,9 +75,9 @@ Remember to install packages and add them to requirements.txt as you go along wi
 pip install -r requirements.txt
 ```
 
-**Step 4: Download datasets from links above in data section. Store the data in the `/data/raw` folder.**
+**Step 4: Download datasets from links above in data section.** **Store the data in the ** `/data/raw` **folder.**
 
-**Step 5: Create pre-processed train and test datasets by running the following notebooks: `notebooks/00-us-preprocessing` and `notebooks/00-international-preprocessing` folders. The datasets are not included as they're larger than the github data storage limits.**
+**Step 5:** Create pre-processed train and test datasets by running the following notebooks: `notebooks/00-us-preprocessing` and `notebooks/00-international-preprocessing` folders. The datasets are not included as they're larger than the github data storage limits.
 
-**Step 6: Run any model notebook, example for the Random Forests model run the corresponding notebook: `notebooks/01-random-forest-modeling`. This will also output the model in the `models/` folder. The models are not included as they're larger than the github data storage limits.**
+**Step 6:** Run any model notebook, example for the Random Forests model run the corresponding notebook: `notebooks/01-random-forest-modeling`. This will also output the model in the `models/` folder. The models are not included as they're larger than the github data storage limits.
 

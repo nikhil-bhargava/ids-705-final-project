@@ -3,7 +3,7 @@
 
 # Machine Learning Project: Predicting Airbnb Rental Prices
 Our team aimed to predict major US and European cities' rental price based on US Airbnb rental price data using supervised learning methods. The main questions of interest are:
-
+  1. How well can our model predict American Airbnb prices? 
   1. Will the model trained on US data generalize to European cities? 
   2. What are the important features in predicting Airbnb prices? 
 
@@ -20,7 +20,6 @@ The final dataset was created by merging four different datasets - US Airbnb dat
 ![work-flow](https://user-images.githubusercontent.com/71023894/115911394-07c0c900-a43c-11eb-9fe3-1995c22ba37d.png)
 
 
-
 ## III. Final Model
 After testing out five different models (Lasso, Random Forest, XGboost, Neural Net and KNN), we concluded that the best model is Random Forest based on R-squared and Absolute Median Error. 
 
@@ -33,7 +32,6 @@ This study developed a modeling and feature engineering approach that not only p
 The results from the Random Forest Regressor, showed that the model was able to outperform other techniques such as Lasso Regression, KNNs, XGboost, and MLP Regressors based on key metrics such as R2 and RMSE. The median prediction of this model was within about $24 of the actual Airbnb price in the US compared to $28 internationally. Considering the nightly cost of anywhere from a couple bucks to thousands of dollars, this range is acceptable.
 
 One limitation our study did not account for is the impact Covid may have had on rental prices internationally. Since most of the training data is from 2018, while much of the international test data was acquired in 2021, there may be a difference in rental prices during those time periods. According to Forbes, 29% of American hosts listed their properties at reduced prices, especially for those considered essential workers, at the beginning of the pandemic.
-
 
 
 ## V. Getting Started
